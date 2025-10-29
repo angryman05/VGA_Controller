@@ -1,0 +1,335 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Thu May 15 16:29:41 2025
+# Process ID         : 6456
+# Current directory  : C:/Facultate/An1sem2/PSN/proiect_vga_controller/proiect_vga_controller/proiect_vga_controller.runs/synth_1
+# Command line       : vivado.exe -log VGA_Shapes.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source VGA_Shapes.tcl
+# Log file           : C:/Facultate/An1sem2/PSN/proiect_vga_controller/proiect_vga_controller/proiect_vga_controller.runs/synth_1/VGA_Shapes.vds
+# Journal file       : C:/Facultate/An1sem2/PSN/proiect_vga_controller/proiect_vga_controller/proiect_vga_controller.runs/synth_1\vivado.jou
+# Running On         : DESKTOP-R012G9C
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 19045
+# Processor Detail   : AMD Ryzen 5 5600H with Radeon Graphics         
+# CPU Frequency      : 3294 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 14877 MB
+# Swap memory        : 7784 MB
+# Total Virtual      : 22661 MB
+# Available Virtual  : 12099 MB
+#-----------------------------------------------------------
+source VGA_Shapes.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental C:/Facultate/An1sem2/PSN/proiect_vga_controller/proiect_vga_controller/proiect_vga_controller.srcs/utils_1/imports/synth_1/VGA_Shapes.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Facultate/An1sem2/PSN/proiect_vga_controller/proiect_vga_controller/proiect_vga_controller.srcs/utils_1/imports/synth_1/VGA_Shapes.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top VGA_Shapes -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 2900
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 973.199 ; gain = 470.102
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'VGA_Shapes' [C:/Facultate/An1sem2/PSN/proiect_vga_controller/proiect_vga_controller/proiect_vga_controller.srcs/sources_1/new/VGA_Shapes.vhd:19]
+INFO: [Synth 8-226] default block is never used [C:/Facultate/An1sem2/PSN/proiect_vga_controller/proiect_vga_controller/proiect_vga_controller.srcs/sources_1/new/VGA_Shapes.vhd:103]
+INFO: [Synth 8-638] synthesizing module 'ROM_Color' [C:/Facultate/An1sem2/PSN/proiect_vga_controller/proiect_vga_controller/proiect_vga_controller.srcs/sources_1/new/ROM_Color.vhd:14]
+INFO: [Synth 8-226] default block is never used [C:/Facultate/An1sem2/PSN/proiect_vga_controller/proiect_vga_controller/proiect_vga_controller.srcs/sources_1/new/ROM_Color.vhd:31]
+WARNING: [Synth 8-614] signal 'R0' is read in the process but is not in the sensitivity list [C:/Facultate/An1sem2/PSN/proiect_vga_controller/proiect_vga_controller/proiect_vga_controller.srcs/sources_1/new/ROM_Color.vhd:28]
+WARNING: [Synth 8-614] signal 'G0' is read in the process but is not in the sensitivity list [C:/Facultate/An1sem2/PSN/proiect_vga_controller/proiect_vga_controller/proiect_vga_controller.srcs/sources_1/new/ROM_Color.vhd:28]
+WARNING: [Synth 8-614] signal 'B0' is read in the process but is not in the sensitivity list [C:/Facultate/An1sem2/PSN/proiect_vga_controller/proiect_vga_controller/proiect_vga_controller.srcs/sources_1/new/ROM_Color.vhd:28]
+WARNING: [Synth 8-614] signal 'R1' is read in the process but is not in the sensitivity list [C:/Facultate/An1sem2/PSN/proiect_vga_controller/proiect_vga_controller/proiect_vga_controller.srcs/sources_1/new/ROM_Color.vhd:28]
+WARNING: [Synth 8-614] signal 'G1' is read in the process but is not in the sensitivity list [C:/Facultate/An1sem2/PSN/proiect_vga_controller/proiect_vga_controller/proiect_vga_controller.srcs/sources_1/new/ROM_Color.vhd:28]
+WARNING: [Synth 8-614] signal 'B1' is read in the process but is not in the sensitivity list [C:/Facultate/An1sem2/PSN/proiect_vga_controller/proiect_vga_controller/proiect_vga_controller.srcs/sources_1/new/ROM_Color.vhd:28]
+WARNING: [Synth 8-614] signal 'R2' is read in the process but is not in the sensitivity list [C:/Facultate/An1sem2/PSN/proiect_vga_controller/proiect_vga_controller/proiect_vga_controller.srcs/sources_1/new/ROM_Color.vhd:28]
+WARNING: [Synth 8-614] signal 'G2' is read in the process but is not in the sensitivity list [C:/Facultate/An1sem2/PSN/proiect_vga_controller/proiect_vga_controller/proiect_vga_controller.srcs/sources_1/new/ROM_Color.vhd:28]
+WARNING: [Synth 8-614] signal 'B2' is read in the process but is not in the sensitivity list [C:/Facultate/An1sem2/PSN/proiect_vga_controller/proiect_vga_controller/proiect_vga_controller.srcs/sources_1/new/ROM_Color.vhd:28]
+WARNING: [Synth 8-614] signal 'R3' is read in the process but is not in the sensitivity list [C:/Facultate/An1sem2/PSN/proiect_vga_controller/proiect_vga_controller/proiect_vga_controller.srcs/sources_1/new/ROM_Color.vhd:28]
+WARNING: [Synth 8-614] signal 'G3' is read in the process but is not in the sensitivity list [C:/Facultate/An1sem2/PSN/proiect_vga_controller/proiect_vga_controller/proiect_vga_controller.srcs/sources_1/new/ROM_Color.vhd:28]
+WARNING: [Synth 8-614] signal 'B3' is read in the process but is not in the sensitivity list [C:/Facultate/An1sem2/PSN/proiect_vga_controller/proiect_vga_controller/proiect_vga_controller.srcs/sources_1/new/ROM_Color.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'ROM_Color' (0#1) [C:/Facultate/An1sem2/PSN/proiect_vga_controller/proiect_vga_controller/proiect_vga_controller.srcs/sources_1/new/ROM_Color.vhd:14]
+INFO: [Synth 8-638] synthesizing module 'debouncer' [C:/Facultate/An1sem2/PSN/proiect_vga_controller/proiect_vga_controller/proiect_vga_controller.srcs/sources_1/new/debouncer.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'debouncer' (0#1) [C:/Facultate/An1sem2/PSN/proiect_vga_controller/proiect_vga_controller/proiect_vga_controller.srcs/sources_1/new/debouncer.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'VGA_Shapes' (0#1) [C:/Facultate/An1sem2/PSN/proiect_vga_controller/proiect_vga_controller/proiect_vga_controller.srcs/sources_1/new/VGA_Shapes.vhd:19]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1079.922 ; gain = 576.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1079.922 ; gain = 576.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1079.922 ; gain = 576.824
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1079.922 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Facultate/An1sem2/PSN/proiect_vga_controller/proiect_vga_controller/proiect_vga_controller.srcs/constrs_1/new/constraints.xdc]
+Finished Parsing XDC File [C:/Facultate/An1sem2/PSN/proiect_vga_controller/proiect_vga_controller/proiect_vga_controller.srcs/constrs_1/new/constraints.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Facultate/An1sem2/PSN/proiect_vga_controller/proiect_vga_controller/proiect_vga_controller.srcs/constrs_1/new/constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/VGA_Shapes_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/VGA_Shapes_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1173.836 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1173.836 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1173.836 ; gain = 670.738
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1173.836 ; gain = 670.738
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1173.836 ; gain = 670.738
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1173.836 ; gain = 670.738
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input   33 Bit       Adders := 4     
+	   2 Input   32 Bit       Adders := 9     
+	   3 Input   32 Bit       Adders := 4     
+	   4 Input   32 Bit       Adders := 1     
+	   2 Input   10 Bit       Adders := 3     
+	   2 Input    2 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 2     
+	                2 Bit    Registers := 6     
+	                1 Bit    Registers := 6     
++---Multipliers : 
+	              32x32  Multipliers := 2     
++---Muxes : 
+	   2 Input    4 Bit        Muxes := 6     
+	   4 Input    4 Bit        Muxes := 3     
+	   2 Input    1 Bit        Muxes := 7     
+	   4 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+DSP Report: Generating DSP pixel2, operation Mode is: A*B.
+DSP Report: operator pixel2 is absorbed into DSP pixel2.
+DSP Report: operator pixel2 is absorbed into DSP pixel2.
+DSP Report: Generating DSP pixel2, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator pixel2 is absorbed into DSP pixel2.
+DSP Report: operator pixel2 is absorbed into DSP pixel2.
+DSP Report: Generating DSP pixel2, operation Mode is: A*B.
+DSP Report: operator pixel2 is absorbed into DSP pixel2.
+DSP Report: operator pixel2 is absorbed into DSP pixel2.
+DSP Report: Generating DSP pixel2, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator pixel2 is absorbed into DSP pixel2.
+DSP Report: operator pixel2 is absorbed into DSP pixel2.
+DSP Report: Generating DSP pixel2, operation Mode is: A*B.
+DSP Report: operator pixel2 is absorbed into DSP pixel2.
+DSP Report: operator pixel2 is absorbed into DSP pixel2.
+DSP Report: Generating DSP pixel2, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator pixel2 is absorbed into DSP pixel2.
+DSP Report: operator pixel2 is absorbed into DSP pixel2.
+DSP Report: Generating DSP pixel2, operation Mode is: A*B.
+DSP Report: operator pixel2 is absorbed into DSP pixel2.
+DSP Report: operator pixel2 is absorbed into DSP pixel2.
+DSP Report: Generating DSP pixel2, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator pixel2 is absorbed into DSP pixel2.
+DSP Report: operator pixel2 is absorbed into DSP pixel2.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1173.836 ; gain = 670.738
+---------------------------------------------------------------------------------
+ Sort Area is  pixel2_0 : 0 0 : 3101 5754 : Used 1 time 0
+ Sort Area is  pixel2_0 : 0 1 : 2653 5754 : Used 1 time 0
+ Sort Area is  pixel2_6 : 0 0 : 3101 5754 : Used 1 time 0
+ Sort Area is  pixel2_6 : 0 1 : 2653 5754 : Used 1 time 0
+ Sort Area is  pixel2_3 : 0 0 : 2634 5119 : Used 1 time 0
+ Sort Area is  pixel2_3 : 0 1 : 2485 5119 : Used 1 time 0
+ Sort Area is  pixel2_7 : 0 0 : 2634 5119 : Used 1 time 0
+ Sort Area is  pixel2_7 : 0 1 : 2485 5119 : Used 1 time 0
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|VGA_Shapes  | A*B            | 18     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|VGA_Shapes  | (PCIN>>17)+A*B | 15     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|VGA_Shapes  | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|VGA_Shapes  | (PCIN>>17)+A*B | 18     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|VGA_Shapes  | A*B            | 18     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|VGA_Shapes  | (PCIN>>17)+A*B | 15     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|VGA_Shapes  | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|VGA_Shapes  | (PCIN>>17)+A*B | 18     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1321.215 ; gain = 818.117
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1322.297 ; gain = 819.199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1341.402 ; gain = 838.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1547.172 ; gain = 1044.074
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1547.172 ; gain = 1044.074
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1547.172 ; gain = 1044.074
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1547.172 ; gain = 1044.074
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1547.172 ; gain = 1044.074
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1547.172 ; gain = 1044.074
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping  | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|VGA_Shapes  | A*B          | 17     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|VGA_Shapes  | A*B          | 17     | 17     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|VGA_Shapes  | PCIN>>17+A*B | 17     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|VGA_Shapes  | A*B          | 17     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|VGA_Shapes  | A*B          | 17     | 17     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|VGA_Shapes  | PCIN>>17+A*B | 17     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BUFG    |     2|
+|2     |CARRY4  |   196|
+|3     |DSP48E1 |     6|
+|4     |LUT1    |   213|
+|5     |LUT2    |   379|
+|6     |LUT3    |    31|
+|7     |LUT4    |   111|
+|8     |LUT5    |    36|
+|9     |LUT6    |    27|
+|10    |FDRE    |   100|
+|11    |IBUF    |    12|
+|12    |OBUF    |    20|
++------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1547.172 ; gain = 1044.074
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:27 . Memory (MB): peak = 1547.172 ; gain = 950.160
+Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 1547.172 ; gain = 1044.074
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1547.172 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 202 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1547.172 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 3ca976f6
+INFO: [Common 17-83] Releasing license: Synthesis
+29 Infos, 13 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 1547.172 ; gain = 1250.539
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1547.172 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Facultate/An1sem2/PSN/proiect_vga_controller/proiect_vga_controller/proiect_vga_controller.runs/synth_1/VGA_Shapes.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file VGA_Shapes_utilization_synth.rpt -pb VGA_Shapes_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu May 15 16:30:18 2025...
